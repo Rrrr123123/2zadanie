@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registr"
+
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:hint="+7"
+                android:inputType="phone"
+                android:maxLength="4"
+                android:singleLine="false"
+                android:textSize="28sp"
+
+                />
+
+            <EditText
+                style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="#FFF"
+                android:hint="Phone num"
+                android:inputType="phone"
+                android:maxLength="18"
+                android:singleLine="false"
+                android:textSize="28sp" />
+        </LinearLayout>
+        <EditText
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFF"
+            android:hint="Name"
+            android:inputType="text"
+            android:singleLine="false"
+            android:textSize="28sp"
+            android:maxLength="18"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFF"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:singleLine="false"
+            android:textSize="28sp"
+            android:maxLength="18"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFF"
+            android:hint="Confirm password"
+            android:inputType="textPassword"
+            android:singleLine="false"
+            android:textSize="28sp"
+            android:maxLength="18"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Continue"
+            android:textSize="28sp"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
